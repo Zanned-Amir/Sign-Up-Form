@@ -91,6 +91,7 @@ span {
     align-items: left;
     justify-content: center;
     padding-bottom: 10px;
+    padding-top: 20px;
 }
 
 .input-row {
@@ -114,14 +115,21 @@ span {
 
 .input-field input {
     width : 200px;
+    font-size: 20px;
     border : 1px solid #E5E7EB;
-    height: 25px;
+    height: 30px;
     border-radius: 5px;
     order: 2;
 }
 .input-field input:focus {
-    border: 1px solid #207fc3 !important;
+    border: 1px solid blue;
+  }
+.input-field #password-alert ,.input-field #cpassword-alert {
+    order: 3;
+    font-size: 15px;
 }
+
+
 #text{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;

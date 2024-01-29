@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>sign_up_form</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
     
 </head>
 <body>
@@ -56,19 +57,22 @@
                 <div class="input-field">
                     <label for="password">PASSWORD</label>
                     <input type="password" name="password" id="password" >
+                    <p id="password-alert"></p>
                 </div>
                 <div class="input-field">
                     <label for="confirm_password">CONFIRM PASSWORD</label>
                     <input type="password" name="confirm_password" id="confirm_password" >
+                    <p id="cpassword-alert"></p>
                 </div>
             </div>
-        </form>
+        
     </div>
 
         
 
     <div class="box-3">
         <button type="submit" >Create Account</button>
+    </form>
         <p id="id-2">Already have an account? <a href="/">Log in</a> </p>
     </div>
 
