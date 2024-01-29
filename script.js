@@ -8,7 +8,7 @@ password.addEventListener('input', function() {
     if (password.value.length < 7) {
         password.style.borderColor = 'red';
         passwordError.style.color = 'red';
-        passwordError.innerText = 'Password must be longer than 7 characters';
+        passwordError.innerText = 'longer than 7 characters';
         test = false;
     } else {
         password.style.borderColor = 'green';
